@@ -12,7 +12,7 @@ RUN if [ "${BUILD_VERSION}" = "edge" ]; \
     then \
         echo "Installing Edge version" && \
         git clone -b dev --single-branch --depth 1 \
-        https://github.com/Koenkk/zigbee2mqtt.git /app && \
+        https://github.com/zesani/zigbee2mqtt.git /app && \
         jq -n --arg commit $(eval cd /app;git rev-parse --short HEAD) '{"hash": $commit }' > /app/.hash.json ; \
     else \
         echo "Installing Stable version ${BUILD_VERSION%-*}" && \
