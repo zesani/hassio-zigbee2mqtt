@@ -2,7 +2,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/zigbee2mqtt/zigbee2mqtt-edge-amd64.svg?style=flat-square&logo=docker)](https://cloud.docker.com/u/zigbee2mqtt/repository/docker/dwelch2101/zigbee2mqtt-edge-amd64)
 
-⚠️ This is the Edge version ⚠️
+⚠️ This is the Edge versionqweqweqwe ⚠️
 
 Allows you to use your Zigbee devices **without** the vendors bridge or gateway.
 
